@@ -61,10 +61,25 @@ The platform aims to enhance customer satisfaction and business visibility witho
 - [Node.js](https://nodejs.org/en/download/) (v14+ recommended)
 - [MongoDB](https://www.mongodb.com/try/download/community) installed or MongoDB Atlas connection
 
-### 2. Clone the Repository
+### 2. Run the Project
 
 
-'''bash
+```bash
 git clone https://github.com/KnightmareAtif/SurveyAppMERN.git
 cd SurveyAppMERN
 
+cd backend
+npm install              # Install backend dependencie
+
+PORT=5000
+MONGO_URI=mongodb://localhost:27017/surveydb
+JWT_SECRET=yourSecretKey              #Create a .env file in the backend folder with the following contents
+
+#Ensure the backend server is running successfully before proceeding to the frontend setup.
+
+node index.js              #Starting backend
+
+cd ../frontend
+npm install              # Install frontend dependencies
+
+npm start                # Launch React app at http://localhost:3000
