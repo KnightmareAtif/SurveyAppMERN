@@ -1,0 +1,33 @@
+.response-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+.response-tile {
+  border: 5px solid #304f8b !important;
+  background-color: #5c70ab !important;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px
+}
+
+.container h3 {
+  text-align: center;
+}
+
+@media (max-width: 700px) {
+  .response-container {
+    justify-content: center;
+  }
+
+  .response-tile {
+    width: 90%;
+  }
+}

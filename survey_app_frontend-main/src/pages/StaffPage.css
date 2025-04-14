@@ -1,0 +1,40 @@
+.btn-primary {
+  background-color: #5c96ab !important;
+  border-color: #5c64ab !important;
+  font-size: 24px;
+  width: 200px;
+  height: 80px;
+  text-align: center; /* Center text horizontally */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* Add padding for better visual appearance */
+  padding: 0; 
+}
+
+.btn-primary:hover {
+  background-color: #4b7e97 !important;
+  border-color: #3d4980  !important;
+}
+
+.button-group {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15%;
+}
+
+@media (max-width: 1300px) {
+  .btn-primary {
+    font-size: 24px;
+    width: 200px;
+    height: 100px;
+    margin: 20px;
+  }
+
+  .button-group {
+    flex-direction: column;
+    align-items: center;
+    padding: 10%;
+  }
+}

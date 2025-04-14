@@ -1,0 +1,94 @@
+/* CSS for ViewSurveys page */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.btn-info {
+  background-color: #4a90a8 !important ;
+  border: none;
+  min-width: 140px;
+  color: white;
+}
+
+.btn-info:hover {
+  background-color: #ffff00;
+}
+
+.survey-link {
+  width: 100%;
+}
+
+.surveys-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+  color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding: 0 10px;
+}
+  
+.survey-title {
+  background-color: #496991 !important;
+  width: 80%;
+  border-radius: 20px;
+  margin-top: 20px;
+  padding: 10px;
+  padding-left: 20px;
+}
+  
+.title-id {
+  display: flex;
+  justify-content: space-between;
+}
+
+.survey-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.nav-button {
+  display: flex;
+  gap: 4px; 
+}
+
+.captcha-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+
+@media (max-width: 1000px) {
+  .surveys-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .survey-title {
+    text-align: center;
+    width: 90%;
+    margin-top: 10px;
+    padding-left: 10px;
+  }
+
+  .survey-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .title-id {
+    display: block;
+    text-align: left;
+    margin-top: 0px;
+    margin-bottom: 20px;
+  }
+
+  .title-id h6 {
+    font-size: 12px;
+  }
+}
