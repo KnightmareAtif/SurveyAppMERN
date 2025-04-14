@@ -64,8 +64,7 @@ The platform aims to enhance customer satisfaction and business visibility witho
 ### 2. Clone the Repository
 
 
-```bash
+'''bash
 git clone https://github.com/KnightmareAtif/SurveyAppMERN.git
 cd SurveyAppMERN
-
 
