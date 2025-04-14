@@ -63,51 +63,9 @@ The platform aims to enhance customer satisfaction and business visibility witho
 
 ### 2. Clone the Repository
 
+
+```bash
 git clone https://github.com/KnightmareAtif/SurveyAppMERN.git
 cd SurveyAppMERN
-
-2. Backend Setup
-Navigate to the backend folder and install the required dependencies:
-
-
-Copy
-Edit
-cd backend
-npm install              # Install backend dependencies
-Configure Environment Variables
-Create a .env file in the backend folder with the following contents:
-
-bash
-Copy
-Edit
-PORT=5000
-MONGO_URI=mongodb://localhost:27017/surveydb
-JWT_SECRET=yourSecretKey
-Start the Backend Server
-You can now start the backend server using the following command:
-
-bash
-Copy
-Edit
-node index.js            # Or use nodemon index.js if installed
-Ensure the backend server is running successfully before proceeding to the frontend setup.
-
-3. Frontend Setup
-Now, navigate to the frontend folder and install the required dependencies:
-
-bash
-Copy
-Edit
-cd ../frontend
-npm install              # Install frontend dependencies
-Start the React App
-Run the following command to launch the React app:
-
-bash
-Copy
-Edit
-npm start                # Launch React app at http://localhost:3000
-
-Note :Ensure that the backend server is running before starting the frontend application.
 
 
