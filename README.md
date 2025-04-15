@@ -55,6 +55,10 @@ The platform aims to enhance customer satisfaction and business visibility witho
 
 ---
 
+![ER Diagram](Diagrams_and_Photos/er-diagram.png)
+
+---
+
 ## 👨‍💻 Installation & Running Locally
 
 ### 1. Prerequisites
