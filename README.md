@@ -54,7 +54,7 @@ The platform aims to enhance customer satisfaction and business visibility witho
 - CORS
 
 ---
-
+##ER Diagram
 ![ER Diagram](Diagrams_and_Photos/ER.png)
 
 ---
