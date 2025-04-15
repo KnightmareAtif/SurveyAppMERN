@@ -58,7 +58,14 @@ The platform aims to enhance customer satisfaction and business visibility witho
 ![ER Diagram](Diagrams_and_Photos/ER.png)
 
 ---
+## Dataflow Diagram
+![ER Diagram](Diagrams_and_Photos/dataflow.png)
 
+---
+## Workflow Diagram
+![ER Diagram](Diagrams_and_Photos/workflow.png)
+
+---
 ## 👨‍💻 Installation & Running Locally
 
 ### 1. Prerequisites
